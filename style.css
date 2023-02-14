@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(116, 108, 195);
+    
+}
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-item a:hover{
+    background-color: beige;
+    color:black !important;
+    border-radius: 0.3em;
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+    
+    /* display: block; */
+
+}
+
+form{
+    width:400px;
+    border: 1px solid grey;
+    background-color: beige;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:0.2em;
+}
+#ajb{
+    border-radius: 0.2em;
+    border: 1px solid grey;
+    padding: 5px;
+    transform: scale();
+    transition: ease-in-out;
+}
+#home {
+    color: rgb(56, 53, 53);
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 220px;
+    font-size: large;
+    text-align: justify;
+
+}
+
+ 
