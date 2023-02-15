@@ -5,7 +5,7 @@ function ajax() {
         var response = JSON.parse(this.responseText);
         var output = "";
         var demo = document.getElementById("demo");
-        demo.style.marginLeft = "300px";
+        // demo.style.marginLeft = "200px";
         demo.style.marginTop = "30px";
         output += "<tr><th style='padding:10px;text-align: center;border:1px solid purple'>Task</th><th style='padding:10px;text-align: center;border:1px solid purple' >Status</th></tr>";
         for (var i = 0; i < response.length; i++) {

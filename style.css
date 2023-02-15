@@ -6,6 +6,16 @@
     background-color: rgb(116, 108, 195);
     
 }
+@media screen and (max-width: 412px) { /* for mobile devices */
+    .nav-item {
+      padding: 0.1px; 
+      height: auto; /* set height to auto */
+    }
+    .nav-item h3 {
+      font-size: 1.5rem; /* reduce font size */
+      margin-bottom: 0; /* remove bottom margin */
+    }
+  }
 .nav-item{
     padding-left: 10px;
     padding-right: 10px;
@@ -40,9 +50,9 @@ form{
 }
 #home {
     color: rgb(56, 53, 53);
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 220px;
+     /* margin-left: 100px; */
+     margin-top: 100px; 
+     /* margin-right: 220px;  */
     font-size: large;
     text-align: justify;
 
