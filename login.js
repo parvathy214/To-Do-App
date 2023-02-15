@@ -58,10 +58,11 @@ function ValCpwd(){
     }
     
   }
-function valform(callback){
+function valform(event,callback){
     if(!valpwd() || !valus()|| !ValCpwd()){
        
-        alert('Not a valid  Format ')
+        alert('Not a valid  Format ');
+        event.preventDefault();
     }
     else{
         callback()
@@ -74,9 +75,11 @@ function login(){
     let pwd = document.getElementById("pwd");
    
     if (eml.value === 'admin' && pwd.value === '12345') {
-        window.open("./home.html","_blank")  ;
-        
-              } 
+        alert("success!!")
+        // window.open("./home.html")  ;
+        event.preventDefault();
+        location.replace('./home.html');
+   } 
       else {
         alert('Invalid username or password');
       }
