@@ -6,12 +6,12 @@
     background-color: rgb(116, 108, 195);
     
 }
-@media screen and (max-width: 412px) { /* for mobile devices */
-    .nav-item {
+@media screen and (max-width: 767px) { /* for mobile devices */
+    #nb2{
       padding: 0.1px; 
       height: auto; /* set height to auto */
     }
-    .nav-item h3 {
+    #nb2 h3 {
       font-size: 1.5rem; /* reduce font size */
       margin-bottom: 0; /* remove bottom margin */
     }
@@ -32,13 +32,13 @@
 }
 
 form{
-    width:400px;
+    width:auto;
     border: 1px solid grey;
     background-color: beige;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 70px;
     border-radius:0.2em;
 }
 #ajb{

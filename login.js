@@ -59,7 +59,7 @@ function ValCpwd(){
     
   }
 function valform(event,callback){
-    if(!valpwd() || !valus()|| !ValCpwd()){
+    if(!valpwd() || !valus()){
        
         alert('Not a valid  Format ');
         event.preventDefault();
